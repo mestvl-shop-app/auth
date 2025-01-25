@@ -1,0 +1,16 @@
+env: "local" # local, dev, prod
+grpc_server:
+  port: 44044
+  timeout: 5s
+database:
+  net: "tcp"
+  host: "localhost"
+  port: "5433"
+  db_name: "shop-auth-service"
+  user: "root"
+  password: "root"
+  sslmode: disable
+  time_zone: "UTC"
+  timeout: 2s
+  max_idle_connections: 40
+  max_open_connections: 40
